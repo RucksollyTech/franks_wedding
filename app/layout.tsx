@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Great_Vibes, Cormorant_Garamond, Lato } from "next/font/google";
 import "./globals.css";
 
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
+
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: "400",

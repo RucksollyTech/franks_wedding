@@ -45,8 +45,9 @@ export default function CountDown() {
 
   return (
     <div className="flex flex-wrap gap-2 md:gap-3">
-      {items.map((item) => (
+      {items.map((item,index) => (
         <div
+          data-aos-delay={`${index * 100}`} data-aos="fade-up"
           key={item.label}
           className="w-[58px] h-[56px] md:w-[74px] md:h-[72px]
           rounded-md border border-[#C9A84C]/70 bg-black/25

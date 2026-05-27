@@ -86,3 +86,55 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* absolute top-0 bottom-0 max-h-65
+ my-auto left-10 */
+.invitationHeader{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-height: 260px;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 2.5rem;
+}
+@media (max-width: 1270px) {
+  .invitationHeader{
+    top: 100px ;
+    margin-top: 0;
+    margin-bottom: 0;
+    left: 0rem;
+  }
+}
+@media (max-width: 1240px) {
+  .invitationHeader{
+    top: 10px ;
+    left: -2rem ;
+  }
+}
+@media (max-width: 980px) {
+  .invitationHeader{
+    top: -20px ;
+    left: -2.5rem ;
+  }
+}
+@media (max-width: 768px) {
+  .invitationHeader{
+    position: initial;
+    display: none !important;
+  }
+  .hero-section {
+    background-image:
+      linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.90) 5%,
+        rgba(0, 0, 0, 0.58) 22%,
+        rgba(0, 0, 0, 0.35) 45%,
+        rgba(0, 0, 0, 0.12) 70%,
+        rgba(0, 0, 0, 0.05) 100%
+      ),
+      url('/images/MobileHero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
