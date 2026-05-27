@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --font-wedding-script: 'Great Vibes', cursive;
+  --font-wedding-serif: 'Cormorant Garamond', serif;
+  --font-wedding-sans: 'Lato', sans-serif;
+  
+  --golds: #94590F;
+  --gold: #C9A84C;
+  --gold-light: #E8C87A;
+  --teal: #1B4A5A;
+  --blush: #E8A0A0;
+  --cream: #F5F0E8;
+  
+  --background: #F5F1EC;
+  --foreground: #171717;
+}
+html {
+  scroll-behavior: smooth;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-mono: var(--font-geist-mono);
+  --color-gold: var(--gold);
+  --color-golds: var(--golds);
+}
+.font-scripts {
+  font-family: var(--font-wedding-script) !important;
+}
+
+.font-serif {
+  font-family: var(--font-wedding-serif);
+}
+
+.font-sans-wedding {
+  font-family: var(--font-wedding-sans);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-wedding-sans);
+}
+
+
+/* Gold divider */
+.gold-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  height: 1px;
+  width: 70px;
+  background: linear-gradient(to right, transparent, #C9A84C);
+}
+.gold-divider::after {
+  background: linear-gradient(to left, transparent, #C9A84C);
+}
+.hero-section {
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.90) 5%,
+      rgba(0, 0, 0, 0.58) 22%,
+      rgba(0, 0, 0, 0.35) 45%,
+      rgba(0, 0, 0, 0.12) 70%,
+      rgba(0, 0, 0, 0.05) 100%
+    ),
+    url('/images/Hero.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
