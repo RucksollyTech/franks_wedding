@@ -48,10 +48,16 @@ export default function Footer() {
             <h3 className="font-serif text-2xl text-gold font-semibold text-center">Need Assistance?</h3>
             <div className="mt-5 space-y-3 mx-auto text-sm text-[#D2D6D5] font-semibold">
               <p className="flex gap-2 text-center">
-                <Phone size={16} /> Richard Osammor <br /> 0818 9544 639
+                <Phone size={16} /> Richard Osammor <br /> 
+                <a href="tel:+234818 9544 639">
+                  0818 9544 639
+                </a>
               </p>
               <p className="flex gap-2 text-center">
-                <Phone size={16} /> Chika Ejiofor <br /> 0810 965 8805
+                <Phone size={16} /> Chika Ejiofor <br /> 
+                <a href="tel:+234810 965 8805">
+                  0810 965 8805
+                </a>
               </p>
             </div>
           </div>

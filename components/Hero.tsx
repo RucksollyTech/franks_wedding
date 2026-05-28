@@ -11,7 +11,10 @@ export default function Hero() {
                     mx-auto mt-auto w-full 
                     text-white"
                 >
-                    <h1 data-aos="fade-down" className="font-scripts text-3xl text-center md:text-start md:text-7xl leading-none ">
+                    <h1 data-aos="fade-down" 
+                    className="
+                        font-scripts text-5xl text-center 
+                        md:text-start md:text-7xl leading-none ">
                         <span className="text-[#e8c27a]">
                             Susan
                         </span> 
@@ -27,20 +30,20 @@ export default function Hero() {
         
                     <div data-aos="fade-right" className="md:max-w-53.25 w-full">
                         <p className="
-                        mt-4 text-center md:text-[18px] 
-                        text-sm md:pl-1 tracking-widest"
+                        mt-4 text-center text-[18px] 
+                         md:pl-1 tracking-widest"
                         >
                             03 OCTOBER 2026
                         </p>
                         <img className="
                         md:max-w-53 max-w-35 max-h-6.25 w-full mx-auto"
-                         src="/images/line.png" alt="" />
+                         src="/images/lines.png" alt="" />
                     </div>
         
-                    <p data-aos="fade-right" className="md:text-lg text-sm md:pl-1 pt-1 md:max-w-53.25 w-full text-center">
+                    <p data-aos="fade-right" className="text-lg md:pl-1 pt-1 md:max-w-53.25 w-full text-center">
                         Two hearts. One journey.
                     </p>
-                    <p data-aos="fade-right" className="md:text-lg text-sm md:pl-1 md:max-w-53.25 w-full text-center">
+                    <p data-aos="fade-right" className="text-lg md:pl-1 md:max-w-53.25 w-full text-center">
                         One beautiful beginning.
                     </p>
                     <div className="md:mt-6 mt-4 md:items-start md:justify-start justify-center items-center flex">

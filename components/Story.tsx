@@ -10,7 +10,7 @@ const Story = () => {
                 <div className='px-5 flex flex-col relative'>
                     <div className='max-w-100 relative z-10 w-full mx-auto md:mt-14 mt-9'>
                         <div data-aos="fade-up" className=" w-full flex">
-                            <img className="max-w-53 mx-auto max-h-6.25 w-full" src="/images/line.png" alt="" />
+                            <img className="max-w-53 mx-auto max-h-6.25 w-full" src="/images/lines.png" alt="" />
                         </div>
                         <h2 data-aos="fade-up" className='font-serif md:text-6xl text-4xl py-1 text-center text-gold'>
                             Our Story
