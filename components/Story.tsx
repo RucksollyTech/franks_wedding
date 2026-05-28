@@ -23,19 +23,19 @@ const Story = () => {
                                 <Heart className='text-gold' />
                             </span>
                         </div>
-                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-sm md:text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
+                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
                             Our story began when a shared Whatsapp community focused on growth and learning brought us into each other’s lives. What started as a simple connection soon became something neither of us expected.
                         </p>
-                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-sm md:text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
+                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
                             Through shared conversations, mutual friends, and a growing connection, what began as casual chats soon became a friendship we both deeply valued. We discovered how much we enjoyed each other’s company, and before long, friendship blossomed into love.
                         </p>
-                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-sm md:text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
+                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
                             The more we talked, the more we realized how naturally we fit into each other’s lives. From long conversations and shared laughter to unforgettable moments together, our friendship grew into a love built on trust, companionship, and genuine friendship. 
                         </p>
-                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-sm md:text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
+                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
                             In January 2023, we began our journey as a couple and in January 2026, that journey led to a beautiful “Yes” and the promise of forever.
                         </p>
-                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-sm md:text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
+                        <p data-aos="fade-right" className='text-center mt-4 text-[#102c33] text-base [text-shadow:0_0_2px_#FFF8EF,0_0_6px_#FFF8EF,0_0_14px_#FFF8EF]'>
                             Today, we’re grateful for every conversation, every memory, and every step that brought us here. We can’t wait to celebrate this next chapter with the people we love most.
                         </p>
 
