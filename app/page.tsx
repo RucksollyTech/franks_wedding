@@ -14,7 +14,7 @@ export default function Home() {
     
   }, []);
   return (
-    <main className="bg-[#FFF8EF] text-[#102c33]">
+    <main className="bg-[#FFF8EF] text-[#102c33] overflow-x-hidden">
       <Navbar />
       <Hero />
       <Story />
