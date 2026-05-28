@@ -4,8 +4,8 @@ import CountDown from "./CountDown";
 export default function Hero() {
   return (
     <section id="home" className="relative border-b border-[#e6d2a6]">
-        <div className="hero-section md:pb-25 pb-25 md:pt-32 w-full relative">
-            <div className="relative h-[90vh] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
+        <div className="hero-section md:pb-25 pb-12 md:pt-32 w-full relative">
+            <div className="relative min-h-[600px] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
                 <div className="
                     max-w-262.5 relative z-10 
                     mx-auto mt-auto w-full 
@@ -26,8 +26,15 @@ export default function Hero() {
                     </h1>
         
                     <div data-aos="fade-right" className="md:max-w-53.25 w-full">
-                        <p className="mt-4 text-center md:text-[18px] text-sm md:pl-1 tracking-widest">03 OCTOBER 2026</p>
-                        <img className="md:max-w-53 max-w-35 max-h-6.25 w-full mx-auto" src="/images/line.png" alt="" />
+                        <p className="
+                        mt-4 text-center md:text-[18px] 
+                        text-sm md:pl-1 tracking-widest"
+                        >
+                            03 OCTOBER 2026
+                        </p>
+                        <img className="
+                        md:max-w-53 max-w-35 max-h-6.25 w-full mx-auto"
+                         src="/images/line.png" alt="" />
                     </div>
         
                     <p data-aos="fade-right" className="md:text-lg text-sm md:pl-1 pt-1 md:max-w-53.25 w-full text-center">
@@ -39,7 +46,9 @@ export default function Hero() {
                     <div className="md:mt-6 mt-4 md:items-start md:justify-start justify-center items-center flex">
                         <CountDown />
                     </div>
-                    <div className="md:mt-6 mt-4 flex gap-4 md:items-start md:justify-start justify-center items-center ">
+                    <div
+                    data-aos-delay={`400`} data-aos="fade-up" 
+                    className="md:mt-6 mt-4 flex gap-4 md:items-start md:justify-start justify-center items-center ">
                         <a href="#rsvp" className="bg-[#0C5568] md:px-8 px-4.5 py-2.5 md:py-3 md:text-sm text-xs font-semibold text-white">
                             RSVP
                         </a>
@@ -53,7 +62,7 @@ export default function Hero() {
                         absolute rotate-35 
                         max-h-full
                         mt-auto
-                        md:-left-30 -left-25
+                        md:-left-30 -left-35
                         top-0 bottom-0" 
                     src="/images/flower-6.png" alt="" />
             </div>
