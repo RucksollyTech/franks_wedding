@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative border-b border-[#e6d2a6]">
         <div className="hero-section md:pb-25 pb-12 md:pt-32 w-full relative">
-            <div className="relative min-h-[650px] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
+            <div className="relative min-h-[600px] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
                 <div className="
                     max-w-262.5 relative z-10 
                     mx-auto mt-auto w-full 
