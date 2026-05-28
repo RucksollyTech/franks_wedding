@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative border-b border-[#e6d2a6]">
         <div className="hero-section md:pb-25 pb-12 md:pt-32 w-full relative">
-            <div className="relative min-h-[600px] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
+            <div className="relative min-h-[650px] md:h-auto z-10 w-full flex flex-col items-center px-6 md:px-20">
                 <div className="
                     max-w-262.5 relative z-10 
                     mx-auto mt-auto w-full 
@@ -52,10 +52,10 @@ export default function Hero() {
                     <div
                     data-aos-delay={`400`} data-aos="fade-up" 
                     className="md:mt-6 mt-4 flex gap-4 md:items-start md:justify-start justify-center items-center ">
-                        <a href="#rsvp" className="bg-[#0C5568] md:px-8 px-4.5 py-2.5 md:py-3 md:text-sm text-xs font-semibold text-white">
+                        <a href="#rsvp" className="bg-[#0C5568] md:px-8 px-6 py-3 md:py-3 md:text-sm text-xs font-semibold text-white">
                             RSVP
                         </a>
-                        <a href="#invitation" className="border border-[#d4a64a] md:px-8 px-4.5 py-2.5 md:py-3 md:text-sm text-xs font-semibold text-white">
+                        <a href="#invitation" className="border border-[#d4a64a] md:px-8 px-6 py-3 md:py-3 md:text-sm text-xs font-semibold text-white">
                             WEDDING DETAILS
                         </a>
                     </div>
