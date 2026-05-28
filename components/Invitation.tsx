@@ -45,7 +45,7 @@ export default function Invitation() {
                     </div>
                 </div>
             </div>
-            <div id="timeline" className="pl-5">
+            <div id="timeline" className="md:pl-5">
                 <img data-aos="fade-left" className="md:max-h-188" src="/images/alles.png" alt="" />
                 <div data-aos="fade-up" className="text-center block md:hidden mt-4">
                     <a className="border text-gold border-[#d4a64a] px-8 py-3 text-sm font-semibold "
