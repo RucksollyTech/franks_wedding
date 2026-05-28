@@ -57,21 +57,34 @@ const lato = Lato({
 //     images: ["https://franks-wedding.vercel.app/images/try3.png"],
 //   },
 // };
-export const metadata = {
-  title: "Susan & Franklin — Saturday, 3rd October 2026",
-  description:
-    "Join us in celebrating the union of Frank and Susan on October 3rd, 2026.",
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://franks-wedding.vercel.app"),
+
+  title: "Frank & Susan's Wedding",
+  description: "Join us in celebrating the union of Frank and Susan on October 3rd, 2026.",
+
   openGraph: {
-    title: "Susan & Franklin — Saturday, 3rd October 2026",
-    description:
-      "Join us in celebrating the union of Frank and Susan on October 3rd, 2026.",
+    title: "Frank & Susan's Wedding",
+    description: "Join us in celebrating the union of Frank and Susan on October 3rd, 2026.",
+    url: "https://franks-wedding.vercel.app",
+    siteName: "Frank & Susan's Wedding",
     images: [
       {
-        url: "https://franks-wedding.vercel.app/images/try3.png",
+        url: "/images/preview.png",
         width: 1200,
         height: 630,
+        alt: "Frank and Susan wedding invitation",
       },
     ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Frank & Susan's Wedding",
+    description: "Join us in celebrating the union of Frank and Susan on October 3rd, 2026.",
+    images: ["/images/preview.png"],
   },
 };
 
