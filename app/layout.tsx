@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Great_Vibes, Cormorant_Garamond, Lato } from "next/font/google";
+import { Great_Vibes, Cormorant_Garamond, Lato, Geist } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner"
 
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
+import { cn } from "@/lib/utils";
+
 // ..
 
 
@@ -18,11 +21,7 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
 });
 
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  variable: "--font-sans-wedding",
-});
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 // export const metadata: Metadata = {
 //   title: "Frank & Susan's Wedding",
@@ -96,9 +95,20 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} h-full antialiased`}
+      className={cn("h-full", "antialiased", greatVibes.variable, cormorant.variable, "font-sans", geist.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Toaster 
+          // toastOptions={{
+          //   style: {
+          //     background: "#000",
+          //     color: "#fff",
+          //   },
+          // }}
+        />
+      </body>
+      
     </html>
   );
 }
