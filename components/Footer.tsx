@@ -36,6 +36,7 @@ export default function Footer() {
           <div className="md:border-r border-gold">
             <h3 className="font-serif text-center text-2xl text-gold font-semibold">Venue & Access Card</h3>
             <MapPin className="mt-5 text-gold mx-auto" />
+            <p className='font-serif text-center text-2xl text-gold font-semibold pt-3'>Lagos, Nigeria </p>
             <p className="mt-4 text-sm text-[#D2D6D5] font-semibold text-center">
               Kindly refer to your access <br />card for venue details.
             </p>
